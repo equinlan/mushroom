@@ -1,3 +1,3 @@
 # mushroom
  
-See the [Jupyter notebook](../blob/master/analysis.ipynb).
+See the [Jupyter notebook](../master/analysis.ipynb).
