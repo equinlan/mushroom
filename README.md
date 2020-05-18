@@ -22,5 +22,10 @@ To run the code locally you will need [Python](https://www.python.org/downloads/
 - [scikit-learn](https://scikit-learn.org/stable/install.html)
 - [Graphviz](https://pypi.org/project/graphviz-python/)
 
+## Images and DOT Data
+The Jupyter notebook generates DOT data and several images from that data.
+- Images can be found in [`/images`](../master/images).
+- DOT data can be found in [`/dot`](../master/dot).
+
 ## License
-Everything outside the `data` folder is licensed under an [MIT License](../master/LICENSE). Use of the contents of `data` should be cited appropriately (see the Machine Learning Repository's [citation policy](https://archive.ics.uci.edu/ml/citation_policy.html)).
+Everything outside the `/data` folder is licensed under an [MIT License](../master/LICENSE). Use of the contents of `/data` should be cited appropriately (see the Machine Learning Repository's [citation policy](https://archive.ics.uci.edu/ml/citation_policy.html)).
