@@ -17,7 +17,7 @@ My exploration makes use of the `expanded` dataset.
 ## Code
 View the [Jupyter notebook](../master/analysis.ipynb).
 
-To run the code locally you will need Python 3.7+ and [JupyterLab or Jupyter Notebook](https://jupyter.org/install) as well as the following Python libraries:
+To run the code locally you will need [Python](https://www.python.org/downloads/) and [JupyterLab or Jupyter Notebook](https://jupyter.org/install) as well as the following Python libraries:
 - [pandas](https://pandas.pydata.org/docs/getting_started/index.html)
 - [scikit-learn](https://scikit-learn.org/stable/install.html)
 - [Graphviz](https://pypi.org/project/graphviz-python/)
