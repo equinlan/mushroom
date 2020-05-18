@@ -1,0 +1,16 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Odor_NONE <= 0.5\ngini = 0.498\nsamples = 8416\nvalue = [4488, 3928]\nclass = Edible"] ;
+1 [label="Stalk Root_CLUB <= 0.5\ngini = 0.287\nsamples = 4608\nvalue = [800, 3808]\nclass = Poisonous"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.132\nsamples = 4048\nvalue = [288, 3760]\nclass = Poisonous"] ;
+1 -> 2 ;
+3 [label="gini = 0.157\nsamples = 560\nvalue = [512, 48]\nclass = Edible"] ;
+1 -> 3 ;
+4 [label="Spore Print Color_GREEN <= 0.5\ngini = 0.061\nsamples = 3808\nvalue = [3688, 120]\nclass = Edible"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label="gini = 0.025\nsamples = 3736\nvalue = [3688, 48]\nclass = Edible"] ;
+4 -> 5 ;
+6 [label="gini = 0.0\nsamples = 72\nvalue = [0, 72]\nclass = Poisonous"] ;
+4 -> 6 ;
+}

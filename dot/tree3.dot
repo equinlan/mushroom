@@ -1,0 +1,28 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Odor_NONE <= 0.5\ngini = 0.498\nsamples = 8416\nvalue = [4488, 3928]\nclass = Edible"] ;
+1 [label="Stalk Root_CLUB <= 0.5\ngini = 0.287\nsamples = 4608\nvalue = [800, 3808]\nclass = Poisonous"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Stalk Surface Below Ring_SCALY <= 0.5\ngini = 0.132\nsamples = 4048\nvalue = [288, 3760]\nclass = Poisonous"] ;
+1 -> 2 ;
+3 [label="gini = 0.049\nsamples = 3856\nvalue = [96, 3760]\nclass = Poisonous"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 192\nvalue = [192, 0]\nclass = Edible"] ;
+2 -> 4 ;
+5 [label="Bruises? <= 0.5\ngini = 0.157\nsamples = 560\nvalue = [512, 48]\nclass = Edible"] ;
+1 -> 5 ;
+6 [label="gini = 0.0\nsamples = 48\nvalue = [0, 48]\nclass = Poisonous"] ;
+5 -> 6 ;
+7 [label="gini = 0.0\nsamples = 512\nvalue = [512, 0]\nclass = Edible"] ;
+5 -> 7 ;
+8 [label="Spore Print Color_GREEN <= 0.5\ngini = 0.061\nsamples = 3808\nvalue = [3688, 120]\nclass = Edible"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Stalk Surface Below Ring_SCALY <= 0.5\ngini = 0.025\nsamples = 3736\nvalue = [3688, 48]\nclass = Edible"] ;
+8 -> 9 ;
+10 [label="gini = 0.004\nsamples = 3680\nvalue = [3672, 8]\nclass = Edible"] ;
+9 -> 10 ;
+11 [label="gini = 0.408\nsamples = 56\nvalue = [16, 40]\nclass = Poisonous"] ;
+9 -> 11 ;
+12 [label="gini = 0.0\nsamples = 72\nvalue = [0, 72]\nclass = Poisonous"] ;
+8 -> 12 ;
+}
